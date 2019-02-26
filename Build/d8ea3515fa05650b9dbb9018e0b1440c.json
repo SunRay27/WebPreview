@@ -1,0 +1,13 @@
+{
+"companyName": "SnowLabs",
+"productName": "WebGLEditor",
+"dataUrl": "f7f7372c932492e18b8efcf345a683ee.unityweb",
+"wasmCodeUrl": "d1a086ae3a6b4170371d15a588c3f569.unityweb",
+"wasmFrameworkUrl": "0eed40a401aa22eb0be0ececcba85c65.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
