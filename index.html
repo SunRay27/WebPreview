@@ -4,22 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | WebGLEditor</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/3998187b7e8feaa618a93b293c0e6812.js"></script>
+    <script src="Build/3544178c924aac8c5129f2d974d60dd7.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/57e8933355cfb3daf121cb8dcd8d7dd0.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/3d86076cd9c7e64a086bac996cd771e0.json");
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 1920px; height: 1200px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">WebGLEditor</div>
-      </div>
-    </div>
+    <div id="gameContainer" style="width: 1920px; height: 1200px; margin: auto"></div>
   </body>
 </html>
